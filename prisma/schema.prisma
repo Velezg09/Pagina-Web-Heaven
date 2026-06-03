@@ -1,0 +1,31 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "windows"]
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Product {
+  id          Int      @id
+  nombre      String
+  marca       String
+  categoria   String
+  precio      Float
+  descripcion String
+  etiqueta    String
+  nuevo       Boolean
+  agotado     Boolean
+
+  tallas      Json
+  colores     Json
+
+  icono       String
+
+  imagen      String
+
+  createdAt   DateTime @default(now())
+}
