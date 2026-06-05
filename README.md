@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HEVEN — Next.js App (Arquitectura Modular)
 
 Migración del proyecto original HTML/CSS/JS a **Next.js 14** con App Router y arquitectura modular.
@@ -67,3 +68,7 @@ La app corre por defecto en **http://localhost:3000**
 - Google Fonts (Bebas Neue + Space Mono) igual que el original.
 - El carrito funciona con estado local de React (`useState`).
 - Los medios (videos, imágenes, audio) deben colocarse en la carpeta `public/`.
+=======
+# Pagina-Web-Heaven
+Heaven Store es una tienda online de ropa streetwear europea desarrollada como proyecto web. La plataforma permite visualizar productos, explorar categorías y ofrecer una experiencia de compra moderna con una interfaz atractiva, enfocada en las últimas tendencias de moda urbana.
+>>>>>>> 4e425711e31c85d1fde3e9bd5bd63a3756c23bc0
